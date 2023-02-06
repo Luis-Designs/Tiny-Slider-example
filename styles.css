@@ -1,0 +1,80 @@
+#slider {
+  height: 500px;
+
+  border: 1px solid #000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1600px;
+  margin: auto;
+}
+
+.subcontainer {
+  width: 85%;
+  margin: auto;
+}
+
+/* .slide {
+  box-shadow: #000;
+  border: 1px solid red;
+  border-radius: 5px;
+} */
+
+.slide-img {
+  width: 100%;
+  height: 275px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img-1 {
+  background-image: url('https://conovatec.dsdeirl.com/wp-content/uploads/2023/02/marketing.webp');
+}
+
+.img-2 {
+  background-image: url('https://conovatec.dsdeirl.com/wp-content/uploads/2023/02/an195161lisis-de-datos.webp');
+}
+
+.img-3 {
+  background-image: url('https://conovatec.dsdeirl.com/wp-content/uploads/2023/02/desarrollo-de-software.webp');
+}
+
+.img-4 {
+  background-image: url('https://conovatec.dsdeirl.com/wp-content/uploads/2023/02/relaciones-publicas.webp');
+}
+
+.img-5 {
+  background-image: url('https://conovatec.dsdeirl.com/wp-content/uploads/2023/02/talento-humano.webp');
+}
+
+.slide-btn__container {
+  text-align: center;
+}
+
+.slide-btn {
+  background-image: linear-gradient(#262D80, #2ABAEB);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border: 0;
+  border-radius: 6px;
+}
+
+.slide-btn:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    width: 100%;
+  }
+}
