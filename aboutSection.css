@@ -1,0 +1,130 @@
+#slider-two {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-slider-two {
+  width: 100%;
+  margin: auto;
+}
+
+.subcontainer-slider-two {
+  width: 100%;
+}
+
+.slide-two-img {
+  width: 100%;
+  height: 500px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-two-1 {
+  background-image: url('https://conovatec.dsdeirl.com/wp-content/uploads/2023/02/simbolos-10-01.webp');
+}
+
+.img-two-2 {
+  background-image: url('https://conovatec.dsdeirl.com/wp-content/uploads/2023/02/webbootcamp-1.webp');
+}
+
+.slide-two-btn {
+  /* background-image: linear-gradient(#262D80, #2ABAEB); */
+  background-color: #212121;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 6px;
+  margin-top: 55%;
+  letter-spacing: 0.1em;
+}
+
+.slide-two-btn:hover {
+  background-color: #212121;
+  cursor: pointer;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .container-slider-two {
+    width: 100%;
+    height: 400px;
+  }
+
+  .slide-two-img {
+    width: 100%;
+    height: 400px;
+  }
+
+  #slider-two {
+    height: 440px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container-slider-two {
+    width: 100%;
+    height: 350px;
+  }
+
+  .slide-two-img {
+    width: 100%;
+    height: 350px;
+  }
+
+  #slider-two {
+    height: 400px;
+  }
+
+  .slide-two-btn {
+    font-size: 12px;
+    margin-top: 15%;
+  }
+
+  .img-two-1 {
+    background-image: url('https://conovatec.dsdeirl.com/wp-content/uploads/2023/02/s195173mbolos-09-scaled.webp');
+  }
+
+  .img-two-2 {
+    background-image: url('https://conovatec.dsdeirl.com/wp-content/uploads/2023/02/webmobil-bootcamp-1.webp');
+  }
+}
+
+@media (max-width: 600px) {
+  .container-slider-two {
+    width: 100%;
+    height: 280px;
+  }
+
+  .slide-two-img {
+    width: 100%;
+    height: 280px;
+  }
+
+  #slider-two {
+    height: 320px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container-slider-two {
+    width: 100%;
+    height: 220px;
+  }
+
+  .slide-two-img {
+    width: 100%;
+    height: 220px;
+  }
+
+  #slider-two {
+    height: 260px;
+  }
+}
